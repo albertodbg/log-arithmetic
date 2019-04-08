@@ -1,4 +1,4 @@
-# logArithmetic
+# log-arithmetic
 This is a repository for logarithmic Functional Units.
 
 This code, or a variation of it, has been employed in the following articles. If you are interested in using this code, it would be fair if you just cite us.
