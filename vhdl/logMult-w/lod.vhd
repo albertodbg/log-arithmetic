@@ -2,6 +2,11 @@
 -- By Alberto A. Del Barrio (UCM)
 -- This module implements a Leading One Detector for an N-bit value
 -- The output is a string of N bits where only the leading one position contains a '1'
+-- This implementation was first used in
+-- M. S. Kim, A. A. Del Barrio, R. Hermida and N. Bagherzadeh, 
+-- "Low-power implementation of Mitchell's approximate logarithmic multiplication for convolutional neural networks," 
+-- 2018 23rd Asia and South Pacific Design Automation Conference (ASP-DAC), Jeju, 2018, pp. 617-622. 
+-- doi: 10.1109/ASPDAC.2018.8297391
 --///////////////////////////////////////////////////////////////////////
 
 library ieee;
