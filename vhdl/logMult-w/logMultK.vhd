@@ -1,7 +1,7 @@
 --///////////////////////////////////////////////////////////////////////
 -- By Alberto A. Del Barrio (UCM) and Min Soo Kim (UCI)
 -- This module implements a logarithmic Mitchell multiplier with a truncated
--- Mitchell's decoder and unbiased operators
+-- Mitchell's decoder and unbiased operands
 -- A detailed description can be found in
 -- M. S. Kim, A. A. Del Barrio Garcia, L. T. Oliveira, R. Hermida and N. Bagherzadeh, "Efficient Mitchell's Approximate Log Multipliers for Convolutional 
 -- Neural Networks," in IEEE Transactions on Computers. doi: 10.1109/TC.2018.2880742
