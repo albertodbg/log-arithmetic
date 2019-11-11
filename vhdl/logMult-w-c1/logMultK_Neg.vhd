@@ -1,7 +1,7 @@
 --///////////////////////////////////////////////////////////////////////
 -- By Alberto A. Del Barrio (UCM) and Min Soo Kim (UCI)
 -- This module implements a logarithmic Mitchell multiplier with a truncated
--- Mitchell's decoder and unbiased operands
+-- Mitchell's decoder and unbiased operators
 -- Also, negative numbers are approximated thanks to the C1 transform
 -- A detailed description can be found in
 -- M. S. Kim, A. A. Del Barrio Garcia, L. T. Oliveira, R. Hermida and N. Bagherzadeh, "Efficient Mitchell's Approximate Log Multipliers for Convolutional 
@@ -12,6 +12,7 @@
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.std_logic_unsigned.all;
+use ieee.numeric_std.all;               -- Needed for shifts
 
 entity logMultK_Neg is
   generic(
