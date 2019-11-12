@@ -69,8 +69,8 @@ architecture estr of mitchellDecoderK is
   signal mantissa_aux: std_logic_vector((N+K-1) downto 0);
   signal shamtL: std_logic_vector(LOG_N downto 0);
   signal shL: std_logic_vector((mantissa_aux'length-1) downto 0);
-  signal shamtR: std_logic_vector(LOG_N downto 0);
-  signal shR: std_logic_vector((mantissa_aux'length-1) downto 0);
+  signal shamtR: std_logic_vector((LOG_K-1) downto 0);
+  signal shR: std_logic_vector((K-1) downto 0);
   signal characsN: std_logic_vector((N-1) downto 0);
   signal shamtMask: std_logic_vector((LOG_N-1) downto 0);
   
