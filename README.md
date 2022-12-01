@@ -16,3 +16,6 @@ doi: 10.1109/TC.2018.2880742
 
 M. S. Kim, A. A. Del Barrio, R. Hermida and N. Bagherzadeh, "Low-power implementation of Mitchell's approximate logarithmic multiplication for convolutional neural networks," 2018 23rd Asia and South Pacific Design Automation Conference (ASP-DAC), Jeju, 2018, pp. 617-622.
 doi: 10.1109/ASPDAC.2018.8297391
+
+# Acknowledgements
+This work has been supported by the EU (FEDER) and the Spanish MINECO and CM under grants S2018/TCS-4423 and RTI2018-093684-B-I00.
